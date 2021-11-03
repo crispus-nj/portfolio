@@ -48,3 +48,7 @@ li a:hover {
     background-color: black;
     color: aquamarine;
 }
+
+main {
+    padding-top: 4rem;
+}

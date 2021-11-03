@@ -1,7 +1,7 @@
 ## __Portfolio Webiste__
 ____
 ### This is a portfolio webiste showcasing my skills in tech industry. It also has a sample of projects.<br>
-## Author: __Cripus Muthiora__
+## Author: __Crispus Muthiora__
 _____
 ## __Technologies used__
 ___
