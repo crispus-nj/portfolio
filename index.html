@@ -35,9 +35,9 @@
                 <p>I am software engineer engineer in kenya, Nairobi</p>
                 <button class="btn btn-outline-danger btn-contact">Contact Me</button>
             </div>
-           <div class="about-me-2">
-               <img src="/images/profile.jpg" style="" alt="" class="image-profile">
-           </div>
+            <div class="about-me-2">
+                <img src="/images/profile.jpg" class="image-profile">
+            </div>
 
         </div>
 
@@ -101,8 +101,17 @@
         </div>
 
         <!--Contact me section-->
-        <div class="container contact-me">
-            <h1>Contact Form</h1>
+        <div class="container d-flex flex-column align-items-center contact-me ">
+            <form action="#">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" placeholder="Please Enter Your Email" style="width: 45%;">
+                </div>
+                <div class="form-group">
+                    <textarea name="Job Description" placeholder="Job Description" id="" cols="50" rows="10"></textarea>
+                </div>
+                <button class="btn btn-outline-success btn-center" style="width: 30%;">Submit</button>
+            </form>
         </div>
     </main>
 </body>
