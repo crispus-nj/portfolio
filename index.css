@@ -74,3 +74,6 @@ main {
     height: 25rem;
     width: 25rem;
 }
+.open {
+    display: block !important;
+}
