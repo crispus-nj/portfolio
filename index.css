@@ -42,13 +42,13 @@ li a {
     /* display: flex;
     align-items: center; */
 }
-li :active,
+/* li :active,
 li a:hover {
     border-bottom: 3px solid white;
     cursor: pointer;
     background-color: black;
     color: aquamarine;
-}
+} */
 /* 
 main {
     padding-top: 3.5rem;
