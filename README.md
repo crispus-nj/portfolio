@@ -5,10 +5,10 @@ This is a portfolio webiste showcasing my skills in the tech industry. It also h
 _____
 ## __Technologies used__
 ___
-* ___HTML___
-* ___CSS___
-* ___BOOTSTRAP___
-* ___JAVASCRIPT___
+* HTML
+* CSS
+* BOOTSTRAP
+* JAVASCRIPT
 ## __Features__
 ____
  * View and click sample projects.
