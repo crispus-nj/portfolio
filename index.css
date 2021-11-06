@@ -1,46 +1,6 @@
 body {
-    box-sizing: content-box;
     margin: 0;
-    background-color: #8a8ab9;
-}
-/* html, body {margin: 0; height: 100%; overflow: hidden} */
-.main-header {
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
-    background-color: #8a8ab9;
-    width: 100%; 
-}
-.main-header-image {
-    display: flex;
-    align-items: center;
-    height: 2.5rem;
-    margin-left: 1rem;
-    
-}
-.image {
-    height: 100%;
-    border-radius: 50%;
-    /* vertical-align: middle; */
-}
-.main-header-1 {
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    flex-direction: row;
-}
-li {
-    
-    margin: 0.8rem 0.8rem 0;
-
-}
-li a {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1rem;
-    color: white;
-    /* display: flex;
-    align-items: center; */
+    padding: 0;
 }
 .project {
     vertical-align: middle;
@@ -48,6 +8,10 @@ li a {
 .project-header {
     text-align: center;
     font-weight: bold;
+    width: 100%;
+    background: #8a8ab9;
+    color: white;
+    padding: 0.4rem;
 }
 .card-image {
     height: 2.0rem;
@@ -57,7 +21,7 @@ li a {
     /* flex: row; */
     align-items: center;
     justify-content: space-between;
-    margin-top: 5px;
+    margin-top: 0.5rem;
 }
 .inner-card a {
     font-weight: bold;
@@ -87,13 +51,10 @@ li a {
     height: 25rem;
     width: 25rem;
 }
-.open {
-    display: block !important;
-} 
-/* @media (min-width: 47rem) {
-    .row {
+
+@media (max-width: 589px) {
+    .about-me {
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
-} */
+}
