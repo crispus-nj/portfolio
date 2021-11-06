@@ -8,6 +8,7 @@ ___
 * ___HTML___
 * ___CSS___
 * ___BOOTSTRAP___
+* ___JAVASCRIPT___
 ## __Features__
 ____
  * ### View and click sample projects.
