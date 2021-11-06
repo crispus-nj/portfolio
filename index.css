@@ -5,10 +5,23 @@ body {
 .nav-link {
     font-weight: bold;
 }
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #818194;
+    width: 100%;
+    box-shadow: 3px 3px 3px 3px grey
+}
+.about-me-1 {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
 
 .project {
     vertical-align: middle;
 }
+
 .project-header {
     text-align: center;
     font-weight: bold;
@@ -34,14 +47,7 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
-.about-me {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #818194;
-    width: 100%;
-    box-shadow: 3px 3px 3px 3px grey
-}
+
 .name {
     color: aquamarine;
     font-weight: bold;
@@ -51,9 +57,10 @@ body {
     font-size: 1.1rem;
     color: #fff;
 }
-.about-me-1 {
+h6 {
+    font-size: 1rem;
     font-weight: bold;
-    font-size: 1.2rem;
+    color: black;
 }
 .modal-buttons{
     display: flex;
