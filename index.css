@@ -50,7 +50,14 @@ li a {
     font-weight: bold;
 }
 .card-image {
-    height: 2.5rem;
+    height: 2.0rem;
+}
+.inner-card {
+    display: flex;
+    /* flex: row; */
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
 }
 .about-me {
     display: flex;
