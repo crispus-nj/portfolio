@@ -59,6 +59,13 @@ li a {
     justify-content: space-between;
     margin-top: 5px;
 }
+.inner-card a {
+    font-weight: bold;
+}
+.inner-card a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
 .about-me {
     display: flex;
     align-items: center;
