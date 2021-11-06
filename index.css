@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-color: #8a8ab9;
 }
+/* html, body {margin: 0; height: 100%; overflow: hidden} */
 .main-header {
     /* display: flex;
     align-items: center;
@@ -38,21 +39,19 @@ li a {
     font-weight: bold;
     font-size: 1rem;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
     /* display: flex;
     align-items: center; */
 }
-/* li :active,
-li a:hover {
-    border-bottom: 3px solid white;
-    cursor: pointer;
-    background-color: black;
-    color: aquamarine;
-} */
-/* 
-main {
-    padding-top: 3.5rem;
-} */
+.project {
+    vertical-align: middle;
+}
+.project-header {
+    text-align: center;
+    font-weight: bold;
+}
+.card-image {
+    height: 2.5rem;
+}
 .about-me {
     display: flex;
     align-items: center;
@@ -76,4 +75,11 @@ main {
 }
 .open {
     display: block !important;
-}
+} 
+/* @media (min-width: 47rem) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+} */
