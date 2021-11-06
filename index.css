@@ -9,7 +9,7 @@ body {
     text-align: center;
     font-weight: bold;
     width: 100%;
-    background: #8a8ab9;
+    background: #818194;
     color: white;
     padding: 0.4rem;
 }
@@ -34,7 +34,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #8a8ab9;
+    background-color: #818194;
     width: 100%;
     box-shadow: 3px 3px 3px 3px grey
 }

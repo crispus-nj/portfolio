@@ -1,6 +1,6 @@
 ## __Portfolio Webiste__
 ____
-### This is a portfolio webiste showcasing my skills in tech industry. It also has a sample of projects.<br>
+### This is a portfolio webiste showcasing my skills in the tech industry. It also has a sample of my projects.<br>
 ## Author: __Crispus Muthiora__
 _____
 ## __Technologies used__
@@ -10,8 +10,11 @@ ___
 * ___BOOTSTRAP___
 ## __Features__
 ____
- * ### View sample projects
- * ### Contact me using linkeIn or using the contact form
+ * ### View and click sample projects.
+ * ### Contact me using linkeIn or using the contact form.
+* ### List of professional skills.
+* ### Responsive in major viewports available. <br>
+
 ## [click here to view the site]()
 ____
 ## Bugs

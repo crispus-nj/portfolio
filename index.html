@@ -13,7 +13,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-        <a href="/" class="navbar-brand">EngTech Designs</a>
+        <a href="/" class="navbar-brand">Crispus</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-items">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,7 +43,36 @@
                 <div class="about-me-2">
                     <p>I am <span class="name">Crispus Muthiora</span></p>
                     <p>I am software engineer engineer in kenya, Nairobi. I decided to take programming because i like being part of a solution. </p>
-                    <button class="btn btn-outline-danger btn-contact">Contact Me</button>
+                    <button class="btn btn-outline-danger btn-contact" data-toggle="modal" data-target="#contact-modal">Contact Me</button>
+                </div>
+                <div class="modal" id="contact-modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title text-center">Hire me for a Job</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form action="">
+                                    <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" name="name" id="name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" name="email" id="email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="textarea">Project Description</label>
+                                        <textarea name="textarea" id="textarea" cols="30" rows="10" class="form-control" placeholder="PROJECT DESCRIPTION"></textarea>
+                                    </div>
+                                    <div>
+                                        <button type="submit" class="btn btn-success">Confirm</button>
+                                        <button type="submit" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
             </div>
@@ -51,7 +80,7 @@
             <!--project section-->
             <div class="container project mt-3" id="project">
                 <div class="title">
-                    <h4 class="project-header">PROJECTS</h4>
+                    <h4 class="project-header bg-dark">PROJECTS</h4>
                 </div>
                 <div class="row">
                     <div class="col-md-4 mt-2">
@@ -107,8 +136,8 @@
             </div>
     
             <!--skill section-->
-            <div class="container mt-4" id="skills">
-                <h1 class="text-center project-header">Proffesional Skills</h1>
+            <div class="container mt-4 mb-4" id="skills">
+                <h1 class="text-center bg-dark project-header">Proffesional Skills</h1>
                 <img src="/images/html5.png" class="" style="height: 2rem;" alt="bootstrap picture">
                 <h6>HTML</h6>
                 <div class="progress">
@@ -156,18 +185,7 @@
             </div>
     
             <!--Contact me section-->
-            <div class="container d-flex flex-column align-items-center contact-me" id="contact">
-                <form action="#">
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="text" class="form-control" placeholder="Please Enter Your Email" style="width: 45%;">
-                    </div>
-                    <div class="form-group">
-                        <textarea name="Job Description" placeholder="Job Description" id="" cols="50" rows="10"></textarea>
-                    </div>
-                    <button class="btn btn-outline-success btn-center" style="width: 30%;">Submit</button>
-                </form>
-            </div>
+        
         </div>
         </main>
        
