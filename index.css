@@ -50,6 +50,12 @@ body {
     align-items: center;
     justify-content: space-evenly;
 }
+.modal-title {
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    padding: 0.5rem;
+}
 .image-profile {
     border-radius: 50%;
     padding: 5rem;
