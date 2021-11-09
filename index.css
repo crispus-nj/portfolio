@@ -37,6 +37,15 @@ body {
   color: white;
   padding: 0.4rem;
 }
+.image-card {
+  overflow: hidden;
+}
+.image-card img {
+  transition: all 2s ease;
+}
+.image-card img:hover {
+  transform: scale(1.5);
+}
 .card-image {
   height: 2rem;
 }
@@ -118,3 +127,14 @@ h6 {
     justify-content: center;
   }
 }
+/* @media (max-width: 414px) {
+  .image-card {
+    overflow: hidden;
+  }
+  .image-card img {
+    transition: all 1s ease-in;
+  }
+  .image-card img:hover {
+    transform: scale(1);
+  }
+} */
