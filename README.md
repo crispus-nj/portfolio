@@ -9,6 +9,12 @@ ___
 * CSS
 * BOOTSTRAP
 * JAVASCRIPT
+## __Set up & Installation Process__
+____
+ * git clone git@github.com:engineer237/portfolio.git
+ * In the folder, run index.html file in the browser of choice.
+ * Make sure you have internet connected to enables Bootstrap functionalities like the modal and dropdown toggle button in the navigation bar.
+
 ## __Features__
 ____
  * View and click sample projects.
