@@ -12,6 +12,7 @@ body {
   background-color: #818194;
   width: 100%;
   box-shadow: 3px 3px 3px 3px grey;
+  margin-top: 3.8rem;
 }
 .about-me-1 {
   font-weight: bold;
@@ -111,6 +112,7 @@ h6 {
   .about-me {
     display: flex;
     flex-direction: column;
+    /* margin-top: 1rem; */
   }
   .about-me-2 {
     display: flex;
