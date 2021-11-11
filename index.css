@@ -5,6 +5,15 @@ body {
 .nav-link {
   font-weight: bold;
 }
+.nav-link{
+  transition: all 0.3s linear;
+  letter-spacing: 0.1rem;
+  display: block;
+}
+.nav-link:hover{
+  background-color: #818194;
+  padding-left: 1.5rem;
+}
 .about-me {
   display: flex;
   align-items: center;
